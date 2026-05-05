@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+//route resource pasien
 Route::resource('pasien', PasienController::class);
