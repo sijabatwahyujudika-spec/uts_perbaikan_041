@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+{{-- Halaman Daftar Pasien --}}
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h2>Daftar Pasien</h2>
     <a href="{{ route('pasien.create') }}" class="btn btn-success">+ Tambah Pasien Baru</a>
