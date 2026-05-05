@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
+        {{-- Master Layout Bootstrap 5 - Sistem Klinik --}}
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
@@ -23,12 +23,12 @@
         </div>
     </nav>
 
-    <!-- KONTEN UTAMA -->
+   
     <div class="container mt-4">
         @yield('content')
     </div>
 
-    <!-- Bootstrap JS CDN -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
