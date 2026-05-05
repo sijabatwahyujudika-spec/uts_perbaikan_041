@@ -1,5 +1,5 @@
 <?php
-
+// Membuat Proteksi Model Pasien dengan Mass Assignment 
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
